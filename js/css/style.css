@@ -50,6 +50,9 @@ body {
 }
 .single-product {
   padding: 10px;
+  height: 600px;
+  width: 350px;
+  background-color: rgb(238,224,250);
   /* background-color: rgb(118, 210, 247); */
   transition: 0.6s;
 }
@@ -57,8 +60,8 @@ body {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
-  background-color: aquamarine;
-
+  background-image: linear-gradient(rgb(187, 135, 247), rgb(126, 183, 248));
+  border-radius: 5%;
 }
 .product-image {
   width: 150px;
